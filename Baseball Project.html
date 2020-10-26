@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=chrome">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+        background-image: url(https://s.yimg.com/ny/api/res/1.2/_3Hx_IjCQ9HoH4yIqmzHvQ--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9MTI4MDtoPTk2MA--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2019-09/6ce88dd0-cf64-11e9-9efd-c116b9bb555a);
+        background-size: 100% 100%;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="jumbotron" style="text-align: center">
+            <h1><b><i>Moneyball 2.0</i></b></h1>
+            </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="box">
+
+                    <h2>Overview</h2>
+                <h3>The purpose of our project is to examine MLB statistics from 1969-Present in order to build models that will predict (WS/LG/Division) winners
+                        
+                    </h3>
+                </div>
+            </div>
+
+            <div class="col-md-8">
+                <div class="box">
+                    <figure>
+                    <img src="results.png"
+                    width=1300, height="550">
+                    </figure>
+                    <h2>Visualization Menu</h2>
+                    <select id="selDataset" onchange="getData(this.value)">
+                        <option value="Option 1">Option 1</option>
+                        <option value="Option 2">Option 2</option>
+                        <option value="Option 3">Option 3</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="box">
+                    <div id="Info"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="box">
+                    <figure>
+                        <img src="Results.csv"
+                            width="400" , height="400">
+
+                    </figure>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="box">
+                    <h4>Summary</h4>
+                    <p>The results from our models varied, and we weren't able to accurately predict a winner. With more time, we feel we can adjust our models in order to provide more accurate readings.  
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="box">
+                    <h4>Resources</h4>
+                    <p> http://www.seanlahman.com/baseball-archive/statistics (MLB Stats)</p>
+                    <p> https://sports.yahoo.com/how-the-field-of-dreams-mlb-dream-came-true-232040628.html (Background Image)</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src=""></script>
+    <script src=""></script>
+
+
+</body>
+
+</html>
