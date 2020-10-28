@@ -41,15 +41,6 @@
                     </figure>
                     <div class="row">
                     <div class=col-md2">
-
-                    </div class="well">
-                    <h2>Visualizations Menu</h2>
-                    <select id="selDataset" onchange="getData(this.value)">
-                        <option value="League.png">League Titles</option>
-                        <option value="Fielding.png">Fielding Stats</option>
-                        <option value="Hitting.PNG">Hitting Stats</option>
-                        <option value="WL.PNG">W/L Info</option>
-                    </select>
                 </div>
             </div>
             <div class="col-md-8">
@@ -64,8 +55,71 @@
                 <div class="box">
                     <figure>
                     <img src="League.png"
-                            width="1200" , height="400">
+                            width="1480" , height="400">
+                            <div>
+                              </div>
+               <div>
+           </div>
+<head>
+    <style>
+        .dropbtn {
+            background-color: black;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+        }
 
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: lightgrey;
+            min-width: 200px;
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 18px 24px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: white;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: rgb(122, 122, 122);
+        }
+    </style>
+</head>
+
+<div class="dropdown">
+    <button class="dropbtn">Project Visualizations Link</button>
+    <div class="dropdown-content">
+
+        <a href="https://prod-useast-b.online.tableau.com/#/site/ursite1/views/Project1/WSWL_1?:iid=3/">W/L Info</a>
+        <a href="https://prod-useast-b.online.tableau.com/#/site/ursite1/views/Project1/PitchingFieldingStats_1?:iid=4">Pitching/Fielding
+            Stats</a>
+        <a href="https://prod-useast-b.online.tableau.com/#/site/ursite1/views/Project1/HittingStats?:iid=8">Hitting
+            Stats</a>
+        <a href="https://prod-useast-b.online.tableau.com/#/site/ursite1/views/Project1/WSWinsbyLeague?:iid=9">League
+            Titles</a>
+    </div>
+</div>
+</body>
+
+</html>
                     </figure>
                 </div>
             </div>
@@ -87,8 +141,6 @@
                     </ul>
                 </div>
             </div>
-        </div>
-    </div>
 
 
 
