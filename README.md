@@ -14,10 +14,10 @@ Available Features
 Year, League, Total Games, Home Games, Wins, Losses, Winning %, Won World Series, Runs, At Bats, Hits, Doubles,  Triples, Homeruns, Base by Ball, strikeouts, complete games, Stolen Bases, ERA, Shutouts, Saves, name
 
 
-![Hitting](Hitting.PNG
-![Fielding](Fielding.PNG)
-![League](League.PNG)
-![WL](WL.PNG)
+![](Hitting.PNG)
+![](Fielding.PNG)
+![](League.PNG)
+![](WL.PNG)
 
 
 
