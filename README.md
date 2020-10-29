@@ -14,6 +14,12 @@ Available Features
 Year, League, Total Games, Home Games, Wins, Losses, Winning %, Won World Series, Runs, At Bats, Hits, Doubles,  Triples, Homeruns, Base by Ball, strikeouts, complete games, Stolen Bases, ERA, Shutouts, Saves, name
 
 
+![Hitting](Hitting.png)
+![Fielding](Fielding.png)
+![League](League.png)
+![WL](WL.png)
+
+
 
 The Models
 
@@ -63,7 +69,7 @@ o	‘max depth’ – 40
 o	‘n-estimator’ – 500
 o	Testing accuracy – 0.20
 
-
+![](Chart.png)
 
 
 Lessons Learned
