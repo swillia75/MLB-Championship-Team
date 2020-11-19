@@ -3,6 +3,8 @@
 MoneyBall 2.0
 Examination of American' Past time
 
+![](images/Chart.png)
+
 Purpose of Project
 
 Extracted MLB data from (1969-Present)
@@ -14,10 +16,10 @@ Available Features
 Year, League, Total Games, Home Games, Wins, Losses, Winning %, Won World Series, Runs, At Bats, Hits, Doubles,  Triples, Homeruns, Base by Ball, strikeouts, complete games, Stolen Bases, ERA, Shutouts, Saves, name
 
 
-![](Hitting.PNG)
-![](Fielding.PNG)
-![](League.PNG)
-![](WL.PNG)
+![](images/Hitting.PNG)
+![](images/Fielding.PNG)
+![](images/League.PNG)
+![](images/WL.PNG)
 
 
 
@@ -69,7 +71,7 @@ o	‘max depth’ – 40
 o	‘n-estimator’ – 500
 o	Testing accuracy – 0.20
 
-![](Chart.PNG)
+![](images/Team_Results.PNG)
 
 
 Lessons Learned
