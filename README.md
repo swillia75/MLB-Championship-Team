@@ -71,7 +71,7 @@ o	‘max depth’ – 40
 o	‘n-estimator’ – 500
 o	Testing accuracy – 0.20
 
-![](images/Team_Results.PNG)
+![](images/Team_Results.png)
 
 
 Lessons Learned
